@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prueba{
+    width: 100vw;
+    height: 20vh;
+    background-color: aqua;
+    font-size: 16px;
+    color: black;
+}
+
+#lista{
+    height: 20vh;
+    width: 100vw;
+    background-color: violet;
+    color: black;
+    
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
