@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="text-container">
+        <h1>Mi Librería</h1>
+        <h3>Como parte del curso de <a href="">Odin project</a> se tiene que hacer sistema en el que <br> se puedan agregar y eliminar libros de una biblioteca, y desplegarlo. <br></h3>
+        <h3>También puedes revisar el <a href="">repositorio de Github.</a></h3>
+    </div>
     
-
-
     <div class="inputs">
-        <input type="text" id="title" placeholder="nombre del libro">
-        <input type="text" id="author" placeholder="autor">
-        <input type="text" id="pages" placeholder="numero de paginas">
-        <input type="text" id="read" placeholder="has leido el libro?">
-        <button id="myButton" onclick="alert('Se han enviado los datos!')">Enviar</button>
+        <input type="text" id="titulo" placeholder="nombre del libro" required>
+        <input type="text" id="autor" placeholder="autor" required >
+        <select id="select">
+            <option value="leido">Leído</option>
+            <option value="no-leido">No leído</option>
+        </select>
+        <button id="boton">Enviar</button>
     </div>
     <div id="lista"></div>
 
-    <script src="myscript.js"></script>
+    <script src="myScript2.js"></script>
 </body>
 </html>
